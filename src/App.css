@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 30px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.app a, .app [type="submit"] {
+    color: #3b49df;
+}
+
+.app--dark {
+    background: #212121;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+
+.app--dark a, .app--dark [type="submit"] {
+    color: #f2ca27;
+}
+
+.app--dark div {
+    color: #7ed07e;
+}

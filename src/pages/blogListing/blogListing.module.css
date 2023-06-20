@@ -1,0 +1,38 @@
+.blog__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+}
+
+.blog__item {
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.blog__title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #005aa2;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.blog__content {
+    color: #4d4d4d;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+.blog__cta {
+    margin: 15px 0 0 auto;
+    display: block;
+    width: max-content;
+}

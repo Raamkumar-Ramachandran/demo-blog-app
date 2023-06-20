@@ -1,0 +1,24 @@
+.form_wrapper {
+    width: 50%;
+    margin: 15px auto;
+}
+
+.input_wrapper {
+    margin-bottom: 15px;
+}
+
+.input_wrapper input,
+.input_wrapper textarea {
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form_wrapper button[type='submit'] {
+    background: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
